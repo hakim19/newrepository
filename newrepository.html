@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <style>
+   #dropdown{
+     display:inline;
+   }
+ </style>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="dropdown" id ="dropdown col-2">
+        <div class="navbar-header col-3">
+          <a class="navbar-brand" href="#">choochoochoo</a>
+        </div>
+       
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownmenu">
+            <li><a href="https://www.w3schools.com/html/html_links.asp">text</a></li>
+            <li><a href="https://www.w3schools.com/html/html_links.asp">text 2</a></li>
+            <li><a href="https://www.w3schools.com/html/html_links.asp">text 3</a></li>
+            <li><a href="https://www.w3schools.com/html/html_links.asp">text 3.5</a></li>
+            <div class="dropdown-divider"></div>
+          </ul>
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+            Dropdown2
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownmenu">
+            <li><a href="https://www.w3schools.com/">text 4</a></li>
+            <li><a href="https://www.w3schools.com/">text 5</a></li>
+            <li><a href="https://www.w3schools.com/">text 6</a></li>
+          </ul>
+          <div>
+        
+  </nav>
+
+<style>
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+</style>
+  
+<div class="container">
+  <h3>Basic Navbar Example</h3>
+  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+</div>
+
+</body>
+</html>
